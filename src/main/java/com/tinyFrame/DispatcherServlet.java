@@ -30,7 +30,7 @@ import java.util.Map;
  * 请求转发器
  */
 @WebServlet(urlPatterns = "/",loadOnStartup = 0)
-public class DispatherServlet extends HttpServlet {
+public class DispatcherServlet extends HttpServlet {
 // 请求转发器是框架的核心，用来处理所有的请求
     @Override
     public void init(ServletConfig config) throws ServletException {
