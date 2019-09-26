@@ -26,7 +26,7 @@ public class BeanFactory {
     }
 
     /**
-     * 方法调用
+     * 通过反射实现方法调用
      *
      * @param obj
      * @param method
@@ -45,7 +45,7 @@ public class BeanFactory {
     }
 
     /**
-     * 设置成员变量值
+     * 通过反射设置成员变量值
      *
      * @param obj
      * @param field

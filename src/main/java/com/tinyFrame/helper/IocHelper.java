@@ -29,7 +29,7 @@ public final class IocHelper {
             Class<?> beanClass = null;
             try {
                 beanClass = Class.forName(className); // 根据bean类全限定名获取class类型
-                System.out.println(className);
+                //System.out.println(className);
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
